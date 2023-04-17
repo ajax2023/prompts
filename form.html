@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Form</title>
+</head>
+
+<body>
+    <form id="custom-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="title">Prompt Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="text">Prompt Text:</label>
+        <textarea id="text" name="text" required></textarea>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="approve">
+            <input type="checkbox" id="approve" name="approve" required>
+            I approve the use of this prompt by others visiting this page.
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
